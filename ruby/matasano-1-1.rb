@@ -17,10 +17,12 @@ shouldProduce = "SSdtIGtpbGxpbmcgeW91ciBicmFpbiBsaWtlIGEgcG9pc29ub3VzIG11c2hyb29
 
 class String
 	def to_binbuf
-		self.scan(/../).map { |x| x.hex.chr}
+		self.scan(/../).map { |x| x.hex }
 	end
 end
 
-result = Base64.strict_encode64(hexString.to_binbuf.join)
+#puts hexString.to_binbuf.map { |x| x.chr }.join
+
+result = Base64.strict_encode64(hexString.to_binbuf.map { |x| x.chr }.join)
 
 puts result
