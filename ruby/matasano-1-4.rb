@@ -1,17 +1,9 @@
-# Single-byte XOR cipher
-# The hex encoded string:
-# 
-# 1b37373331363f78151b7f2b783431333d78397828372d363c78373e783a393b3736
-# ... has been XOR'd against a single character. Find the key, decrypt the message.
-# 
-# You can do this by hand. But don't: write code to do it for you.
-# 
-# How? Devise some method for "scoring" a piece of English plaintext. Character frequency is a good metric. Evaluate each output and choose the one with the best score.
-# 
-# Achievement Unlocked
-# You now have our permission to make "ETAOIN SHRDLU" jokes on Twitter.
-
-hexString = "1b37373331363f78151b7f2b783431333d78397828372d363c78373e783a393b3736"
+#Detect single-character XOR
+#One of the 60-character strings in this file has been encrypted by single-character XOR.
+#
+#Find it.
+#
+#(Your code from #3 should help.)
 
 class String
 	def to_binbuf
@@ -61,15 +53,20 @@ class Array
 	end
 end
 
-hex = hexString.to_binbuf
+lines = []
+File.foreach('../4.txt') { |line| lines.push(line) }
 
 scores = []
-for i in 0...256
-	scores[i] = hex.xor(i).score
+i = 0
+lines.each do |line|
+	for key in 0...256
+		scores[i * 256 + key] = line.to_binbuf.xor(key).score
+	end
+
+	i += 1
 end
 
-key = scores.index(scores.max)
-puts hex.xor(key)
-
-puts "                 ".score
-puts "hello how are you".score
+idx = scores.index(scores.max)
+line_idx = idx / 256
+key = idx % 256
+puts lines[line_idx].to_binbuf.xor(key)
