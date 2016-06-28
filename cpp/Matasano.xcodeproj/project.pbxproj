@@ -1,0 +1,287 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		442BB93E1D22281B00C5AC5B /* Base64.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 442BB93C1D22281B00C5AC5B /* Base64.cpp */; };
+		442BB9411D22293400C5AC5B /* CryptoUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 442BB93F1D22293400C5AC5B /* CryptoUtils.cpp */; };
+		442BB9451D222B1600C5AC5B /* Benchmark.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 442BB9421D222B1600C5AC5B /* Benchmark.cpp */; };
+		442BB9461D222B1600C5AC5B /* matasano-1-1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 442BB9441D222B1600C5AC5B /* matasano-1-1.cpp */; };
+		442BB9481D222BAC00C5AC5B /* matasano-1-2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 442BB9471D222BAC00C5AC5B /* matasano-1-2.cpp */; };
+		442BB94A1D222C2800C5AC5B /* matasano-1-3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 442BB9491D222C2800C5AC5B /* matasano-1-3.cpp */; };
+		442BB94C1D222D1100C5AC5B /* matasano-1-4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 442BB94B1D222D1100C5AC5B /* matasano-1-4.cpp */; };
+		442BB9501D222E4D00C5AC5B /* matasano-1-5.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 442BB94F1D222E4D00C5AC5B /* matasano-1-5.cpp */; };
+		442BB9521D222EB300C5AC5B /* matasano-1-6.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 442BB9511D222EB300C5AC5B /* matasano-1-6.cpp */; };
+		442BB9541D222F0500C5AC5B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 442BB9531D222F0500C5AC5B /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		44C892141C9A14D3005016CA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		442BB93C1D22281B00C5AC5B /* Base64.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Base64.cpp; sourceTree = SOURCE_ROOT; };
+		442BB93D1D22281B00C5AC5B /* Base64.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Base64.hpp; sourceTree = SOURCE_ROOT; };
+		442BB93F1D22293400C5AC5B /* CryptoUtils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CryptoUtils.cpp; sourceTree = SOURCE_ROOT; };
+		442BB9401D22293400C5AC5B /* CryptoUtils.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = CryptoUtils.hpp; sourceTree = SOURCE_ROOT; };
+		442BB9421D222B1600C5AC5B /* Benchmark.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Benchmark.cpp; sourceTree = SOURCE_ROOT; };
+		442BB9431D222B1600C5AC5B /* Benchmark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Benchmark.h; sourceTree = SOURCE_ROOT; };
+		442BB9441D222B1600C5AC5B /* matasano-1-1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "matasano-1-1.cpp"; sourceTree = SOURCE_ROOT; };
+		442BB9471D222BAC00C5AC5B /* matasano-1-2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "matasano-1-2.cpp"; sourceTree = SOURCE_ROOT; };
+		442BB9491D222C2800C5AC5B /* matasano-1-3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "matasano-1-3.cpp"; sourceTree = SOURCE_ROOT; };
+		442BB94B1D222D1100C5AC5B /* matasano-1-4.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "matasano-1-4.cpp"; sourceTree = SOURCE_ROOT; };
+		442BB94F1D222E4D00C5AC5B /* matasano-1-5.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "matasano-1-5.cpp"; sourceTree = SOURCE_ROOT; };
+		442BB9511D222EB300C5AC5B /* matasano-1-6.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "matasano-1-6.cpp"; sourceTree = SOURCE_ROOT; };
+		442BB9531D222F0500C5AC5B /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = SOURCE_ROOT; };
+		44C892161C9A14D3005016CA /* Matasano */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Matasano; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44C892131C9A14D3005016CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44C8920D1C9A14D3005016CA = {
+			isa = PBXGroup;
+			children = (
+				44C892181C9A14D4005016CA /* Matasano */,
+				44C892171C9A14D4005016CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		44C892171C9A14D4005016CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44C892161C9A14D3005016CA /* Matasano */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44C892181C9A14D4005016CA /* Matasano */ = {
+			isa = PBXGroup;
+			children = (
+				442BB9421D222B1600C5AC5B /* Benchmark.cpp */,
+				442BB9431D222B1600C5AC5B /* Benchmark.h */,
+				442BB93C1D22281B00C5AC5B /* Base64.cpp */,
+				442BB93D1D22281B00C5AC5B /* Base64.hpp */,
+				442BB93F1D22293400C5AC5B /* CryptoUtils.cpp */,
+				442BB9401D22293400C5AC5B /* CryptoUtils.hpp */,
+				442BB9441D222B1600C5AC5B /* matasano-1-1.cpp */,
+				442BB9471D222BAC00C5AC5B /* matasano-1-2.cpp */,
+				442BB9491D222C2800C5AC5B /* matasano-1-3.cpp */,
+				442BB94B1D222D1100C5AC5B /* matasano-1-4.cpp */,
+				442BB94F1D222E4D00C5AC5B /* matasano-1-5.cpp */,
+				442BB9511D222EB300C5AC5B /* matasano-1-6.cpp */,
+				442BB9531D222F0500C5AC5B /* main.cpp */,
+			);
+			path = Matasano;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		44C892151C9A14D3005016CA /* Matasano */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44C8921D1C9A14D4005016CA /* Build configuration list for PBXNativeTarget "Matasano" */;
+			buildPhases = (
+				44C892121C9A14D3005016CA /* Sources */,
+				44C892131C9A14D3005016CA /* Frameworks */,
+				44C892141C9A14D3005016CA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Matasano;
+			productName = Matasano;
+			productReference = 44C892161C9A14D3005016CA /* Matasano */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44C8920E1C9A14D3005016CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Dominic Hudon";
+				TargetAttributes = {
+					44C892151C9A14D3005016CA = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 44C892111C9A14D3005016CA /* Build configuration list for PBXProject "Matasano" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 44C8920D1C9A14D3005016CA;
+			productRefGroup = 44C892171C9A14D4005016CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44C892151C9A14D3005016CA /* Matasano */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44C892121C9A14D3005016CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				442BB93E1D22281B00C5AC5B /* Base64.cpp in Sources */,
+				442BB9481D222BAC00C5AC5B /* matasano-1-2.cpp in Sources */,
+				442BB94C1D222D1100C5AC5B /* matasano-1-4.cpp in Sources */,
+				442BB9461D222B1600C5AC5B /* matasano-1-1.cpp in Sources */,
+				442BB94A1D222C2800C5AC5B /* matasano-1-3.cpp in Sources */,
+				442BB9501D222E4D00C5AC5B /* matasano-1-5.cpp in Sources */,
+				442BB9521D222EB300C5AC5B /* matasano-1-6.cpp in Sources */,
+				442BB9451D222B1600C5AC5B /* Benchmark.cpp in Sources */,
+				442BB9541D222F0500C5AC5B /* main.cpp in Sources */,
+				442BB9411D22293400C5AC5B /* CryptoUtils.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		44C8921B1C9A14D4005016CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		44C8921C1C9A14D4005016CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		44C8921E1C9A14D4005016CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		44C8921F1C9A14D4005016CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44C892111C9A14D3005016CA /* Build configuration list for PBXProject "Matasano" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44C8921B1C9A14D4005016CA /* Debug */,
+				44C8921C1C9A14D4005016CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44C8921D1C9A14D4005016CA /* Build configuration list for PBXNativeTarget "Matasano" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44C8921E1C9A14D4005016CA /* Debug */,
+				44C8921F1C9A14D4005016CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 44C8920E1C9A14D3005016CA /* Project object */;
+}
